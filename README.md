@@ -49,6 +49,16 @@ The below mentioned category of features are extracted from the URL data :
 
 ## Model Training
 
+The problem that we are trying to solve is a classification problem,more specifically a 'binary' classification problem. Classification problem comes under supervised machine learning. After feature extraction we'll train multiple ML models using our data and choose the model which gives us best accuracy.
+
+The machine learning models considered to train the dataset in this project are :
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Support Vector Machine
+- k-nearest neighbors
+- GradientBoost
+- Multilayer Perceptron
 
 
 
