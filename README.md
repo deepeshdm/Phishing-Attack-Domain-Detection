@@ -29,7 +29,7 @@ For this project we'll need bunch of legitimate and phishing url's,each categori
 We'll use this kaggle dataset : https://www.kaggle.com/siddharthkumar25/malicious-and-benign-urls.
 It contains 450k domain url's out of which 345k are legitimate & 104k are malicious. From this dataset 10,000 url's are randomly collected from each class to train ML models.
 
-The collected datasets are uploaded in 'Data' directory of this repository.
+The collected datasets are uploaded in '[Data](https://github.com/deepeshdm/Phishing-Attack-Domain-Detection/tree/main/Data)' directory of this repository.
 
 
 ## Feature Extraction
