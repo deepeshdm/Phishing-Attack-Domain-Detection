@@ -11,7 +11,7 @@ Phishing is a type of fraud in which an attacker impersonates a reputable compan
 The main goal of this project is  to create a domain authentication system that would detect if a given domain url is legit or fake website created to perform fraud. Multiple ML models will be tested for this problem. A web Interface along with suitable Rest-API's will be created for commercial use.
 
 <div align="center">
-<img src="/Imgs/phising_architecture.jpg" width="65%"/>
+<img src="/Imgs/phising_architecture.jpg" width="75%"/>
 </div>
 
 ## Project Workflow
