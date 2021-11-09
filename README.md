@@ -1,4 +1,4 @@
-## Phising Attack Domain Detection by Machine Learning
+## Phishing Attack Domain Detection by Machine Learning
 
 <div align="center">
 <img src="/Imgs/phising.gif" width="50%"/>
