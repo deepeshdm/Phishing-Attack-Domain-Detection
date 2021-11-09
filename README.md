@@ -38,12 +38,11 @@ The dataset till now consist of only legit and malicious urls,in this stage we e
 
 The below mentioned category of features are extracted from the URL data :
 
-- Address Bar based Features
-          In this category 9 features are extracted.
-- Domain based Features
-          In this category 4 features are extracted.
-- HTML & Javascript based Features
-          In this category 4 features are extracted.
+- Address Bar based Features ( 9 features extracted)
+- Domain based Features ( 4 features extracted)
+- HTML & Javascript based Features ( 4 features extracted)
+
+ All together 17 features are extracted from 10,000 URLs from each class and are stored in 'urldata.csv' file in the Data folder of this repository.
 
 (For Further information about the features see the features file in the data folder.)
 
