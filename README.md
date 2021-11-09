@@ -34,7 +34,18 @@ The collected datasets are uploaded in '[Data](https://github.com/deepeshdm/Phis
 
 ## Feature Extraction
 
+The dataset till now consist of only legit and malicious urls,in this stage we extract some useful features from these urls and further improve our dataset to make it more suitable for training ML models.
 
+The below mentioned category of features are extracted from the URL data :
+
+- Address Bar based Features
+          In this category 9 features are extracted.
+- Domain based Features
+          In this category 4 features are extracted.
+- HTML & Javascript based Features
+          In this category 4 features are extracted.
+
+(For Further information about the features see the features file in the data folder.)
 
 
 ## Model Training
