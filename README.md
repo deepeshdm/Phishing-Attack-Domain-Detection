@@ -42,9 +42,9 @@ The below mentioned category of features are extracted from the URL data :
 - Domain based Features ( 4 features extracted)
 - HTML & Javascript based Features ( 4 features extracted)
 
- All together 17 features are extracted from 10,000 URLs from each class and are stored in 'urldata.csv' file in the Data folder of this repository.
+ All together 17 features are extracted from 10,000 URLs of each class and are stored in 'Phishing_Detection.csv' file in the Data folder of this repository.
 
-(For Further information about the features see the features file in the data folder.)
+#### (For Further information about the features see the '[features file](https://github.com/deepeshdm/Phishing-Attack-Domain-Detection/blob/main/Data/Phishing%20Websites%20Features-converted.pdf)' in the data folder)
 
 
 ## Model Training
