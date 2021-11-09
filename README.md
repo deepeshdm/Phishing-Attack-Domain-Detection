@@ -9,7 +9,7 @@ Phishing is a type of fraud in which an attacker impersonates a reputable compan
 
 
 <div align="center">
-<img src="/Imgs/phising_architecture.jpg" width="50%"/>
+<img src="/Imgs/phising_architecture.jpg" width="65%"/>
 </div>
 
 
