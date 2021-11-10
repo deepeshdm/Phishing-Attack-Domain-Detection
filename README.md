@@ -65,6 +65,12 @@ The machine learning models considered to train the dataset in this project are 
 
 
 
+## Improvements
+This project was done just for the sake of learning end-to-end ML deployment and not any commercial product. Further things which can be done for Improving this model :
+- Collecting more data which has less "sparse" features.
+- Tunning the currently used models for accuracy.
+
+
 
 
 
