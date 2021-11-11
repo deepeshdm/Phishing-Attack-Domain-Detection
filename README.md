@@ -57,6 +57,7 @@ The machine learning models considered to train the dataset in this project are 
 - XGBoost
 - Multilayer Perceptron
 
+(For this dataset XGBoost gave the highest accuracy with suitably balanced precision and recall,the trained model is saved [here](https://github.com/deepeshdm/Phishing-Attack-Domain-Detection/blob/main/Data/XGBoostClassifier.pickle.dat))
 
 
 ## Web Interface & API Documentation
