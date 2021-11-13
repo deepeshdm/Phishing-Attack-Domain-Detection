@@ -27,9 +27,8 @@ Data Collection --> Feature Extraction --> Training --> Deployment
 For this project we'll need bunch of legitimate and phishing url's,each categorised by (0) and (1). 
 
 We'll use this kaggle dataset : https://www.kaggle.com/siddharthkumar25/malicious-and-benign-urls.
-It contains 450k domain url's out of which 345k are legitimate & 104k are malicious. From this dataset 10,000 url's are randomly collected from each class to train ML models.
 
-The collected datasets are uploaded in '[Data](https://github.com/deepeshdm/Phishing-Attack-Domain-Detection/tree/main/Data)' directory of this repository.
+It contains 450k domain url's out of which 345k are legitimate and 104k are malicious. The Imbalanced dataset is oversampled using the SOMTE technique,which increases the total number of samples to around 600k.
 
 
 ## Feature Extraction
@@ -37,15 +36,15 @@ The collected datasets are uploaded in '[Data](https://github.com/deepeshdm/Phis
 The dataset till now consist of only legit and malicious urls,in this stage we extract some useful features from these urls and further improve our dataset to make it more suitable for training ML models.
 
 The below mentioned category of features are extracted from the URL data :
+- Length based Features ( 5 features extracted)
+- Count based Features ( 11 features extracted)
+- Binary Features  ( 2 features extracted)
 
-- Address Bar based Features ( 9 features extracted)
-- Domain based Features ( 4 features extracted)
-- HTML & Javascript based Features ( 4 features extracted)
 
- All together 17 features are extracted from 5000 URLs of each class and the final dataset is stored in '[Phishing_Detection2.csv](https://github.com/deepeshdm/Phishing-Attack-Domain-Detection/blob/main/Data/Phishing_Detection2.csv)' file in the Data folder of this repository.
+ All together 18 features are extracted from each url of the dataset.
 
-#### (For Further information about the features see the '[features file](https://github.com/deepeshdm/Phishing-Attack-Domain-Detection/blob/main/Data/Phishing%20Websites%20Features-converted.pdf)' in the data folder)
 
+#### (For Further information about the features see the ['Phishing Websites Features.docx'](https://archive.ics.uci.edu/ml/machine-learning-databases/00327/) .
 
 ## Model Training
 
@@ -54,23 +53,22 @@ The problem that we are trying to solve is a classification problem,more specifi
 The machine learning models considered to train the dataset in this project are :
 - Decision Tree
 - Random Forest
-- XGBoost
 - Multilayer Perceptron
 
-(For this dataset XGBoost gave the highest accuracy with suitably balanced precision and recall,the trained model is saved [here](https://github.com/deepeshdm/Phishing-Attack-Domain-Detection/blob/main/Data/XGBoostClassifier.pickle.dat))
+(For this dataset MLP gave the highest accuracy with suitably balanced precision and recall,the trained model is saved [here](https://github.com/deepeshdm/Phishing-Attack-Domain-Detection/tree/main/models))
 
 
 ## Web Interface & API Documentation
 
-
+Coming soon !
 
 
 
 ## Improvements
 This project was done just for the sake of learning end-to-end ML deployment,so far less focus was given on optimizing model performances.Further things which can be done for Improving this model :
 - Collecting more data which has less "sparse" features.
-- Tunning the currently used models for accuracy.
 - Reducing the number of features through feature-selection
+- Optimising the model for precion rather than recall.
 
 
 
