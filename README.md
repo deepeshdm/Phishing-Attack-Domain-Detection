@@ -17,9 +17,10 @@ The main goal of this project is  to create a domain authentication system that 
 ## Project Workflow
 The project will follow the same approach as used in all ML project. We'll go through different stages of data collection,feature extraction,training and finally deployment of trained model.
 
-```python
-Data Collection --> Feature Extraction --> Training --> Deployment
-```
+- Data Collection
+- Feature Extraction
+- Model training & evaluation
+- Deployment
 
 
 ## Data Collection
@@ -58,13 +59,38 @@ The machine learning models considered to train the dataset in this project are 
 (For this dataset MLP gave the highest accuracy (99%) with suitably balanced precision and recall,the trained model is saved [here](https://github.com/deepeshdm/Phishing-Attack-Domain-Detection/tree/main/models))
 
 
+## To run (locally)
+1. Import this repository using git command
+```
+git clone https://github.com/deepeshdm/Phishing-Attack-Domain-Detection.git
+```
+2. Install all the required dependencies inside a virtual environment
+```
+pip install -r requirements.txt
+```
+3. Copy the below code snippet and pass the required variable values
+```python
+from API import get_prediction
+
+# path to trained model
+model_path = r"/models/Malicious_URL_Prediction.h5"
+
+# input url
+url = "www.tesla.com/"
+
+# returns probability of url being malicious
+prediction = get_prediction(url,model_path)
+print(prediction)
+```
+
+
 ## Web Interface & API Documentation
 
 Coming soon !
 
 
 
-## Improvements
+## Improvements to make
 This project was done just for the sake of learning end-to-end ML deployment,so far less focus was given on optimizing model performances.Further things which can be done for Improving this model :
 - Collecting more data which has less "sparse" features.
 - Reducing the number of features through feature-selection
