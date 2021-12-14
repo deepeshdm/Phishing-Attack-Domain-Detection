@@ -92,12 +92,14 @@ print(prediction)
 The API takes a string URL as input and returns a probability value (0-100) of URL being malicious.
 We declare a URL malicious if it crosses a probability value of 70%.
 
+#### Checkout the API documentation - [here](https://phishhr.herokuapp.com/docs) 
+
 <div align="center">
 <img src="/Imgs/phishr-demo.gif" width="80%"/>
 </div>
 
 ### Other Related Repositories
-- Checkout the API documentation - [here](https://phishhr.herokuapp.com/docs) 
+- Rest API deployment repository - [here](https://github.com/deepeshdm/Phishr-API) 
 - React Web Interface repository - [here](https://github.com/deepeshdm/phishr)
 ##
 
