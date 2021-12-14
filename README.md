@@ -89,8 +89,12 @@ print(prediction)
 
 ## Web Interface & API Documentation
 
-Coming soon !
+The API takes a string URL as input and returns a probability value (0-100) of URL being malicious.
+We declare a URL malicious if it crosses a probability value of 70%.
 
+<div align="center">
+<img src="/Imgs/phishr-demo.gif" width="80%"/>
+</div>
 
 
 ## Improvements to make
