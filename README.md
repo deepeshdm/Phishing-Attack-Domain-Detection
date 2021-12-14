@@ -96,6 +96,10 @@ We declare a URL malicious if it crosses a probability value of 70%.
 <img src="/Imgs/phishr-demo.gif" width="80%"/>
 </div>
 
+### Other Related Repositories
+- Checkout the API documentation - [here](https://phishhr.herokuapp.com/docs) 
+- React Web Interface repository - [here](https://github.com/deepeshdm/phishr)
+##
 
 ## Improvements to make
 This project was done just for the sake of learning end-to-end ML deployment,so far less focus was given on optimizing model performances.Further things which can be done for Improving this model :
