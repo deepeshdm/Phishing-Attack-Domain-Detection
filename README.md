@@ -1,13 +1,13 @@
 ## Phishing Attack Domain Detection with Machine Learning
 
-### 🔥 CHECKOUT REACT WEBSITE ➡ [pphishr.herokuapp.com](http://pphishr.herokuapp.com/)
+#### 🔥 CHECKOUT REACT WEBSITE 👉 [pphishr.herokuapp.com](http://pphishr.herokuapp.com/)
 <br/>
 
 <div align="center">
 <img src="/Imgs/phising.gif" width="50%"/>
 </div>
 
-## Objective
+## 🎯 Objective
 Phishing is a type of fraud in which an attacker impersonates a reputable company or person in order to get sensitive information such as login credentials or account information via email or other communication channels.Phishing is popular among attackers because it is easier to persuade someone to click a malicious link that appears to be authentic than it is to break through a computer's protection measures.
 
 
@@ -62,7 +62,7 @@ The machine learning models considered to train the dataset in this project are 
 (For this dataset MLP gave the highest accuracy (99%) with suitably balanced precision and recall,the trained model is saved [here](https://github.com/deepeshdm/Phishing-Attack-Domain-Detection/tree/main/models))
 
 
-## To run (locally)
+## 👨‍💻 To run (locally)
 1. Import this repository using git command
 ```
 git clone https://github.com/deepeshdm/Phishing-Attack-Domain-Detection.git
@@ -87,7 +87,7 @@ print(prediction)
 ```
 
 
-## Web Interface & API Documentation
+## 🔥 Web Interface & API Documentation
 
 The API takes a string URL as input and returns a probability value (0-100) of URL being malicious.
 We declare a URL malicious if it crosses a probability value of 70%.
