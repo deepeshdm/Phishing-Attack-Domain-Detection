@@ -71,7 +71,7 @@ git clone https://github.com/deepeshdm/Phishing-Attack-Domain-Detection.git
 ```
 pip install -r requirements.txt
 ```
-3. Copy the below code snippet and pass the required variable values
+3. After this just import the get_prediction() from API.py and pass the required arguments to make the prediction.Below is an example,copy the below code snippet and pass the required variable values
 ```python
 from API import get_prediction
 
