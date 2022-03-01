@@ -1,6 +1,7 @@
 ## Phishing Attack Domain Detection with Machine Learning
 
 #### 🔥 Official Website 👉 [pphishr.herokupapp.com](http://pphishr.herokuapp.com/)
+Enter any URL and our Machine Learning model will scan the URL and tell you if its malicious or not.
 <br/>
 
 <!-- <div align="center">
