@@ -3,8 +3,11 @@
 #### 🔥 CHECKOUT REACT WEBSITE 👉 [PPHISHR.HEROKUAPP.COM](http://pphishr.herokuapp.com/)
 <br/>
 
-<div align="center">
+<!-- <div align="center">
 <img src="/Imgs/phising.gif" width="50%"/>
+</div> -->
+<div align="center">
+<img src="/Imgs/phishr-demo.gif" width="75%"/>
 </div>
 
 ## 🎯 Objective
