@@ -8,7 +8,7 @@ Enter any URL and our Machine Learning model will scan the URL and tell you if i
 <img src="/Imgs/phising.gif" width="50%"/>
 </div> -->
 <div align="center">
-<img src="/Imgs/phishr-demo.gif" width="75%"/>
+<img src="/Imgs/phishr-demo.gif" width="80%"/>
 </div>
 
 ## 🎯 Objective
