@@ -91,6 +91,11 @@ print(prediction)
 
 ## 🔥 Web Interface & API Documentation
 
+In order to make it easy for anyone to interact with the model,we created a clean web interface using ReactJS and deployed it on Heroku cloud space. We also created a microservice Rest API, so that developers can use this model in their applications.
+
+- Checkout Official Website : [pphishr.herokupapp.com](http://pphishr.herokuapp.com/)
+- Website Repository : [here](https://github.com/deepeshdm/PixelMix)
+
 The API takes a string URL as input and returns a probability value (0-100) of URL being malicious.
 We declare a URL malicious if it crosses a probability value of 70%.
 
