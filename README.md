@@ -95,16 +95,11 @@ In order to make it easy for anyone to interact with the model,we created a clea
 
 - Checkout Official Website : [pphishr.herokupapp.com](http://pphishr.herokuapp.com/)
 - Website Repository : [here](https://github.com/deepeshdm/phishr)
+- Rest API documentation - [here](https://phishhr.herokuapp.com/docs) 
 
 <div align="center">
 <img src="/Imgs/phishr-demo.gif" width="80%"/>
 </div>
-
-The API takes a string URL as input and returns a probability value (0-100) of URL being malicious.
-We declare a URL malicious if it crosses a probability value of 70%.
-
-#### Rest API documentation - [here](https://phishhr.herokuapp.com/docs) 
-
 
 ### Related Repositories
 - Rest API deployment repository - [here](https://github.com/deepeshdm/Phishr-API) 
