@@ -94,7 +94,7 @@ print(prediction)
 In order to make it easy for anyone to interact with the model,we created a clean web interface using ReactJS and deployed it on Heroku cloud space. We also created a microservice Rest API, so that developers can use this model in their applications.
 
 - Checkout Official Website : [pphishr.herokupapp.com](http://pphishr.herokuapp.com/)
-- Website Repository : [here](https://github.com/deepeshdm/PixelMix)
+- Website Repository : [here](https://github.com/deepeshdm/phishr)
 
 The API takes a string URL as input and returns a probability value (0-100) of URL being malicious.
 We declare a URL malicious if it crosses a probability value of 70%.
@@ -105,7 +105,7 @@ We declare a URL malicious if it crosses a probability value of 70%.
 <img src="/Imgs/phishr-demo.gif" width="80%"/>
 </div>
 
-### Other Related Repositories
+### Related Repositories
 - Rest API deployment repository - [here](https://github.com/deepeshdm/Phishr-API) 
 - React Web Interface repository - [here](https://github.com/deepeshdm/phishr)
 ##
