@@ -93,7 +93,7 @@ print(prediction)
 
 In order to make it easy for anyone to interact with the model,we created a clean web interface using ReactJS and deployed it on Heroku cloud space. We also created a microservice Rest API, so that developers can use this model in their applications.
 
-- Checkout Official Website : [pphishr.herokupapp.com](https://phishr.vercel.app/)
+- Checkout Official Website : [phishr.vercel.com](https://phishr.vercel.app/)
 - Website Repository : [here](https://github.com/deepeshdm/phishr)
 - Rest API documentation - [here](https://phishr-api.up.railway.app/docs) 
 
