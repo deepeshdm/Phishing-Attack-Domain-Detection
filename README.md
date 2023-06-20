@@ -92,7 +92,7 @@ In order to make it easy for anyone to interact with the model,we created a clea
 
 - Checkout Official Website : [phishr.vercel.com](https://phishr.vercel.app/)
 - Frontend Repository : [here](https://github.com/deepeshdm/phishr)
-- Backend API repository : [here](https://github.com/deepeshdm/Phishr-API) 
+- Backend API repository : [here](https://github.com/deepeshdm/Phishr-API) (New Updated)
 
 <div align="center">
 <img src="/Imgs/phishr-demo3.gif" width="90%"/>
