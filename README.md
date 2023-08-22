@@ -104,7 +104,8 @@ This project was done just for the sake of learning end-to-end ML deployment,so 
 - Reducing the number of features through feature-selection
 - Optimising the model for precion rather than recall.
 
-
+## Related :
+- https://github.com/ANG13T/url_genie
 
 
 
